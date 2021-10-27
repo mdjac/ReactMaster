@@ -3,6 +3,7 @@ import { Clock } from './exercise1';
 import { Fetchapi } from './exercise3';
 import { FetchAndDisplay } from './FetchAndDisplayExercise';
 import { Counter } from './useStateExercise';
+import Listdemo from './listDemo.jsx';
 
 export function Main() {
     return (
@@ -12,6 +13,7 @@ export function Main() {
         <Fetchapi/>
         <Counter initialvalue={10} number={5}/>
         <FetchAndDisplay/>
+        <Listdemo/>
       </div>
     );
   }

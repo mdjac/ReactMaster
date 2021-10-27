@@ -29,8 +29,9 @@ export function MultiWelcome() {
     };
 
 function WelcomePerson(props){
+  console.log(props.person);
     return (
-        <h1>wELCOME {props.person.firstName} -  {props.person.lastName} - {props.person.email}</h1>
+        <h1>wELCOME  {props.person.firstName} -  {props.person.lastName} - {props.person.email}</h1>
     );
 }
 
